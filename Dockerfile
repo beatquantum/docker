@@ -1,3 +1,8 @@
+# Author: Santosh Pandit
+# Repository: https://github.com/beatquantum/docker
+# License: GNU GPL v3
+# Last update: 4 Oct 2024
+# Description: Deploy standard sysctl.conf
 FROM ubuntu:latest
 
 # Install necessary packages
