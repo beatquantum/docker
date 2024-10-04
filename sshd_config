@@ -1,0 +1,77 @@
+# Author: Santosh Pandit
+# Repository: https://github.com/beatquantum/docker
+# License: GNU GPL v3
+# Last update: 4 Oct 2024
+# Description: Standard sshd_config optimised sshaudit.com and avoids CVE with CHACHA.
+
+# Only allow 'root' and 'nonroot' users to log in
+AllowUsers root nonroot
+
+# Include additional configuration files from the specified directory
+Include /etc/ssh/sshd_config.d/*.conf
+
+# Set accepted environment variables
+AcceptEnv LANG LC_*
+
+# Disable agent forwarding
+AllowAgentForwarding no
+
+# Disable TCP forwarding
+AllowTcpForwarding no
+
+# Set the preferred cipher suites for SSH connections
+Ciphers aes256-gcm@openssh.com
+
+# Set the maximum number of client alive messages without response
+ClientAliveCountMax 2
+
+# Disable compression to improve security
+Compression no
+
+# Location of the host private key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Set the allowed host key algorithms
+HostKeyAlgorithms ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,sk-ssh-ed25519@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com
+
+# Disable keyboard-interactive authentication
+KbdInteractiveAuthentication no
+
+# Set the key exchange algorithms used during SSH negotiation
+KexAlgorithms sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org
+
+# Set the logging level to VERBOSE for detailed logs
+LogLevel QUIET
+
+# Set the allowed message authentication codes (MACs)
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com
+
+# Limit the maximum number of authentication attempts
+MaxAuthTries 3
+
+# Limit the maximum number of simultaneous sessions per connection
+MaxSessions 2
+
+# Disable password authentication; only allow public key authentication
+PasswordAuthentication no
+
+# Permit root login with a password (prohibit-password is more secure than yes)
+PermitRootLogin prohibit-password
+
+# Set the listening port to 49022
+Port 49022
+
+# Do not print the message of the day (MOTD) during login
+PrintMotd no
+
+# Specify the SFTP subsystem location
+Subsystem sftp /usr/lib/openssh/sftp-server
+
+# Disable TCP KeepAlive for SSH connections
+TCPKeepAlive no
+
+# Use PAM (Pluggable Authentication Modules) for authentication
+UsePAM yes
+
+# Disable X11 forwarding for security reasons
+X11Forwarding no
