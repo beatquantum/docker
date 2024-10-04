@@ -13,10 +13,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install necessary packages including ca-certificates to fix SSL issues
 RUN apt-get update \
     && apt-get install -y --no-install-recommends git ca-certificates \
-    # Clone your repository and copy sysctl.conf
+    # Clone your repository
     && git clone https://github.com/beatquantum/docker.git /tmp/repo \
-    && cp /tmp/repo/sysctl.conf /etc/sysctl.conf \
-    && sysctl -p \
     # Copy hardened sshd_config to the correct location
     && cp /tmp/repo/sshd_config /etc/ssh/sshd_config \
     # Remove existing SSH host keys
