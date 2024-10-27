@@ -1,0 +1,16 @@
+# Security Policy for LinuxCore.cloud
+
+# Contact Information
+Contact: https://beatquantum.com/contact.php
+
+# Policy
+Policy: https://beatquantum.com/security
+
+# Canonical Location
+Canonical: https://linuxcore.cloud/.well-known/security.txt
+
+# Preferred Languages
+Preferred-Languages: en, fr
+
+# Signature for Validity
+Expires: 2025-12-31T23:59:59.000Z
