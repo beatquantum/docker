@@ -3,6 +3,9 @@
 # Contact Information
 Contact: https://beatquantum.com/contact.php
 
+# Encryption Policy (Not needed for contact form)
+Encryption: None
+
 # Policy
 Policy: https://beatquantum.com/security
 
@@ -19,20 +22,3 @@ Preferred-Languages: en, fr
 
 # Signature for Validity
 Expires: 2025-10-26T23:59:59.000Z
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEE/QJ5/30iv6x+x51EJudIyPtLgZAFAmceVIcACgkQJudIyPtL
-gZC8/BAAlWBXtZtTLYYMWdhu/DHSTLmFgFCueh1XIKcX/2TiKhuIf+00paXtLAUy
-t1S7L0qXJoirLM8BOAYAmHOjIfdl2lC9npE9KuVNQhsEmz/OS4oXflRHgnkotiVA
-Hi3/QNWF4vJdnUvr7pVu8xRku6n96ZpfbZvS69B/VgE1dSM55J+ESsrVI92+tWZr
-ujyYFGIq2LpymCYO8pKDpXvCrL42usNuZEYe5KrqWZ3xBEcbSbfUlbEiU7j7NFQy
-4lqQ6rjLWZ9u5vVtBr/HsMUBsJlN6K9NtK34ozPLhsWVI3C7UMU4/EnIlMZCoRSh
-eoQfQK7PI6Fo/aOc/TzazYBW+xkRYE15wBWIuzTIkruXvnZBS+IL7sNXaaAqfyaO
-esbiqT+j32P8riCKGwFyuHtLlKgiKqRdZgy8ZLb5b+dChHPiVz45d3zHbeZZ8IeC
-lRNpeGzChktXCBOeWrbeIcCypPTsNQhdC3jf/nKxG7O+n9vyYUu6cMojjfRqngx9
-N7wdy0hzf7wiQqQdsablMiQVEJlF3myUQyHLifbP4dCC/nGLEvTtAKsrZiZ7r9Aj
-BNdKEDVJZvHiiJMEn8zMo4CZkvohAfMN+7k07RpH+i0Ks/Q3PXjEtd3PLToDGvvf
-vLyDx441h2KOel/ELfV3XUrYAE43HJ21ieJv7ppJ+VaO+RaYewk=
-=Q7f8
------END PGP SIGNATURE-----
-f4c0f9eadfea86e7ea72d62d62fe7bc0359ea61a92ce83a1be745128d2120cdb  security.txt
