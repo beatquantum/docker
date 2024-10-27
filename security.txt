@@ -6,11 +6,16 @@ Contact: https://beatquantum.com/contact.php
 # Policy
 Policy: https://beatquantum.com/security
 
-# Canonical Location
+# Canonical Locations
 Canonical: https://linuxcore.cloud/.well-known/security.txt
+Canonical: https://au01.linuxcore.cloud/.well-known/security.txt
+Canonical: https://us01.linuxcore.cloud/.well-known/security.txt
+Canonical: https://uk01.linuxcore.cloud/.well-known/security.txt
+Canonical: https://za01.linuxcore.cloud/.well-known/security.txt
+Canonical: https://sg01.linuxcore.cloud/.well-known/security.txt
 
 # Preferred Languages
 Preferred-Languages: en, fr
 
 # Signature for Validity
-Expires: 2025-12-31T23:59:59.000Z
+Expires: 2025-10-26T23:59:59.000Z
