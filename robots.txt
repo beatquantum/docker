@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://linuxcore.cloud/sitemap.xml
