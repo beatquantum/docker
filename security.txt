@@ -1,13 +1,13 @@
 # Security Policy for LinuxCore.cloud
 
+# Policy
+Policy: https://beatquantum.com/security
+
 # Contact Information
 Contact: https://beatquantum.com/contact.php
 
-# Encryption Policy (Not needed for contact form)
-Encryption: None
-
-# Policy
-Policy: https://beatquantum.com/security
+# Preferred Languages
+Preferred-Languages: en, fr
 
 # Canonical Locations
 Canonical: https://linuxcore.cloud/.well-known/security.txt
@@ -16,9 +16,6 @@ Canonical: https://us01.linuxcore.cloud/.well-known/security.txt
 Canonical: https://uk01.linuxcore.cloud/.well-known/security.txt
 Canonical: https://za01.linuxcore.cloud/.well-known/security.txt
 Canonical: https://sg01.linuxcore.cloud/.well-known/security.txt
-
-# Preferred Languages
-Preferred-Languages: en, fr
 
 # Signature for Validity
 Expires: 2025-10-26T23:59:59.000Z
